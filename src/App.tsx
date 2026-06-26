@@ -367,16 +367,8 @@ export const App = () => {
       </div>
 
       <div className={appSt.bottomBtn}>
-        <Button
-          block
-          view="primary"
-          loading={loading}
-          onClick={submit}
-          style={{ borderRadius: '2rem' }}
-          hint="Шахматы + Система прогрессии"
-          size={72}
-        >
-          Играть за 799 ₽
+        <Button block view="primary" loading={loading} onClick={submit} style={{ borderRadius: '2rem' }} size={72}>
+          Играть бесплатно
         </Button>
       </div>
     </>
